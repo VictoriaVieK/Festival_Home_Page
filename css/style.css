@@ -4,39 +4,16 @@ body {
     font-family: 'Bebas Neue', cursive;
     background-color: black;
     color: #F6D393;
-    margin-left: 80px;
-    margin-top: 110px;
-    margin-right: 80px;
-    margin-bottom: 110px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
 }
 
 main {
     font-size: 40px;
-}
-
-.Lineup {
-    color: #E9585D;
-    text-decoration: none;
-}
-
-.Lineup:hover {
-    color: #eb8a8d;
-    text-decoration: none;
-}
-
-.Mat {
-    color: #E9585D;
-    text-decoration: none;
-}
-
-.Mat:hover {
-    color: #eb8a8d;
-    text-decoration: none;
-}
-
-
-h3 {
-    font-size: 50px;
+    padding: 20px;
 }
 
 .topptekst {
@@ -46,22 +23,31 @@ h3 {
     font-size: 30px;
     color: #F5BCCA;
     background-color: black;
-    position: relative;
-    padding-top: 7px;
+    position: fixed;
     width: 100%;
     top: 0;
-    margin-right: 5rem;
-    
 }
+
+.Hjem {
+    padding: 20px;
+}
+
 
 .logo {
     color: #E9585D;
     font-size: 240px;
 }
 
+.Link-logo {
+    text-decoration: none;
+    color: #E9585D;
+    padding: 60px 20px 0 20px;
+}
+
 .underlogo {
     font-size: 60px;
 }
+
 
 
 .menu {
@@ -71,6 +57,24 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+    text-decoration: underline;
+}
+
+.Link-meny {
+    color: #E9585D;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.Link-meny:hover {
+    color: #F5BCCA;
+    text-decoration: none;
+}
+
+
+
+h3 {
+    font-size: 50px;
 }
 
 
@@ -85,12 +89,11 @@ h3 {
     width: 300px;
 }
 
-.container-center {
-    width: 40rem;
-    height: 10rem;
-    padding: 0.5rem;
-    margin: 1.5rem auto;
-    border: 0.25rem solid #000;
+
+.img-barbie {
+    height: 500px;
+    display: block;
+    margin: 40px auto;
 }
 
 .bunntekst {
@@ -100,10 +103,8 @@ h3 {
     font-size: 30px;
     color: #F5BCCA;
     background-color: black;
-    bottom: 0%;
+    bottom: 0;
     position: fixed;
-    padding-bottom: 7px;
-    padding-top: 7px;
+    padding: 20px;
     width: 100%;
 }
-
