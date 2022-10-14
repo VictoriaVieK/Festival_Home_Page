@@ -14,6 +14,27 @@ main {
     font-size: 40px;
 }
 
+.Lineup {
+    color: #E9585D;
+    text-decoration: none;
+}
+
+.Lineup:hover {
+    color: #eb8a8d;
+    text-decoration: none;
+}
+
+.Mat {
+    color: #E9585D;
+    text-decoration: none;
+}
+
+.Mat:hover {
+    color: #eb8a8d;
+    text-decoration: none;
+}
+
+
 h3 {
     font-size: 50px;
 }
@@ -25,11 +46,11 @@ h3 {
     font-size: 30px;
     color: #F5BCCA;
     background-color: black;
-    position: fixed;
+    position: relative;
     padding-top: 7px;
     width: 100%;
     top: 0;
-    margin-right: 0px;
+    margin-right: 5rem;
     
 }
 
@@ -59,6 +80,18 @@ h3 {
     padding-top: 150px;
 }
 
+.img-mouth {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.container-center {
+    width: 40rem;
+    height: 10rem;
+    padding: 0.5rem;
+    margin: 1.5rem auto;
+    border: 0.25rem solid #000;
+}
 
 .bunntekst {
     display: flex;
@@ -73,3 +106,4 @@ h3 {
     padding-top: 7px;
     width: 100%;
 }
+
