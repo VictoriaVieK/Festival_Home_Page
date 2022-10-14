@@ -108,3 +108,25 @@ h3 {
     padding: 20px;
     width: 100%;
 }
+
+.mail {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #F5BCCA;
+    transition: 00.2s;
+}
+
+.mail:hover {
+    color: #E9585D;
+}
+
+.ticketmaster {
+    text-decoration: none;
+    color: #F5BCCA;
+    text-decoration: underline;
+    transition: 00.2s;
+}
+
+.ticketmaster:hover {
+    color: #E9585D;
+}
