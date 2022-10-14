@@ -7,20 +7,13 @@ body {
     box-sizing: border-box;
 }
 
-header .topptekst {
-    padding: 20px;
-}
-
-
-
-
 
 main {
     font-size: 40px;
-    margin: 50px
 }
 
 .topptekst {
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,7 +34,6 @@ main {
 .Link-logo {
     text-decoration: none;
     color: #E9585D;
-    padding: 60px 20px 0 20px;
 }
 
 .underlogo {
@@ -50,15 +42,19 @@ main {
 }
 
 
-
-.menu {
+main .menu {
     color: #E9585D;
     font-size: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 50px;
     text-decoration: underline;
+    margin: 45px 70px 45px 70px;
+    
+}
+
+.seksjon {
+    margin; 
 }
 
 .Link-meny {
@@ -74,16 +70,15 @@ main {
 
 
 
+
 h3 {
     font-size: 50px;
-}
-
-
-h3 {
     color: #E9585D;
-    padding-bottom: 20px;
-    padding-top: 150px;
+    padding: 0px;
+    margin: 0px;
 }
+
+
 
 
 .img-barbie {
