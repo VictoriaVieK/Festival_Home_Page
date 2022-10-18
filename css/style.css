@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
+
 body {
     font-family: 'Bebas Neue', cursive;
     background-color: black;
@@ -7,10 +9,11 @@ body {
     box-sizing: border-box;
 }
 
-
 main {
     font-size: 40px;
 }
+
+
 
 .topptekst {
     padding: 20px;
@@ -39,7 +42,7 @@ main {
 .logo {
     color: #E9585D;
     font-size: 240px;
-    margin: 100px auto 0px 70px;
+    margin: 100px 70px 0px 70px;
 }
 
 .Link-logo {
@@ -53,6 +56,7 @@ main {
 }
 
 
+
 .menu {
     color: #E9585D;
     font-size: 50px;
@@ -63,7 +67,6 @@ main {
     margin: 45px 70px 45px 70px;
     
 }
-
 
 .Link-meny {
     color: #E9585D;
@@ -78,7 +81,6 @@ main {
 
 
 
-
 h3 {
     font-size: 50px;
     color: #E9585D;
@@ -87,7 +89,8 @@ h3 {
 }
 
 .seksjon {
-    margin: 100px 70px;
+    margin: 0 70px 0px 70px;
+    padding-top: 100px;
 }
 
 .linje {
@@ -99,6 +102,8 @@ h3 {
     display: block;
     margin: 45px auto 100px auto;
 }
+
+
 
 .bunntekst {
     display: flex;
@@ -145,6 +150,9 @@ h3 {
 .instagram:hover {
     color: #E9585D;
 }
+
+
+
 
 
 
