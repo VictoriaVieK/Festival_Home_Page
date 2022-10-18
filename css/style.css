@@ -25,6 +25,17 @@ main {
     top: 0;
 }
 
+.YT-topptekst {
+    color: #F5BCCA;
+    text-decoration: none;
+    text-decoration: underline;
+    transition: 00.2s;
+}
+
+.YT-topptekst:hover {
+    color: #E9585D;
+}
+
 .logo {
     color: #E9585D;
     font-size: 240px;
@@ -42,7 +53,7 @@ main {
 }
 
 
-main .menu {
+.menu {
     color: #E9585D;
     font-size: 50px;
     display: flex;
@@ -77,6 +88,10 @@ h3 {
 
 .seksjon {
     margin: 100px 70px;
+}
+
+.linje {
+    margin-top: 50px;
 }
 
 .img-barbie {
@@ -129,4 +144,34 @@ h3 {
 
 .instagram:hover {
     color: #E9585D;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .menu {
+        display: none;
+    }
+
+    .topptekst {
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    .bunntekst {
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    .logo {
+        font-size: 100px;
+        margin: 170px auto 0px 50px;
+    }
+
+    .underlogo {
+        font-size: 25px;
+        margin: 0px auto 0px 50px
+    }
+
+    
 }
