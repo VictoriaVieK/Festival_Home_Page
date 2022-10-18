@@ -164,14 +164,34 @@ h3 {
     }
 
     .logo {
-        font-size: 100px;
-        margin: 170px auto 0px 50px;
+        font-size: 120px;
+        margin: 170px auto 0px 40px;
     }
 
     .underlogo {
         font-size: 25px;
-        margin: 0px auto 0px 50px
+        margin: 0px auto 0px 40px
     }
 
-    
+    h3 {
+        font-size: 45px;
+    }
+
+    main {
+        font-size: 30px;
+    }
+
+    .seksjon {
+        margin: 150px 40px 0px 40px;
+    }
+
+    .linje {
+        margin-top: 30px;
+    }
+
+    .img-barbie {
+        height: 300px;
+        display: block;
+        margin: 40px auto 100px auto;
+    }
 }
